@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'spree_core', '~> 3.0.0'
   s.add_dependency 'spree_api'
-  s.add_dependency 'active_model_serializers', '~> 0.8.2'
+  # s.add_dependency 'active_model_serializers', github: 'AskNative/active_model_serializers', branch: '0-8-stable'
   s.add_dependency 'apitome'
 
   s.add_development_dependency 'capybara', '~> 2.1'
